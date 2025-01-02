@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Quiz = require('../models/Quiz');
 const QuizResult = require('../models/QuizResult');
-const quizService = require('../services/QuizService');
+const quizService = require('../services/quizservice');
 const { generateQuiz } = require('../services/generateservice'); // Update import to use correct filename and destructure
 
 // GET /api/quizzes/hello
